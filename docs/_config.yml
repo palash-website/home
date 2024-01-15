@@ -31,7 +31,8 @@ url: https://palash-website.github.io # the base hostname & protocol for your si
 author: Palash
 footertitle: C.O.D.E
 # Build settings
-theme: minima
+#theme: minima
+#bundle info --path minima gives you where it is installed. 
 #theme: jekyll-theme-basically-basic
 #theme: minimal-mistakes-jekyll
 plugins:
