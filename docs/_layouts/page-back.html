@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+{%- if page.cover -%} <!-- Added this to show up a cover image: MJ -->
+  <img src="{{- site.imagepath | relative_url | append: page.cover -}} " alt="" class="featured-image-post">
+  {%- else -%}
+  <img src="{{- site.imagepath | relative_url | append: site.defaultpostimage -}} " alt="" class="featured-image-post">
+
+{%- endif -%}
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

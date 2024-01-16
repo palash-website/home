@@ -1,0 +1,5 @@
+{%- if page.coverImage -%} <!-- Added this to show up a cover image: MJ -->
+  <img src="{{- site.imagepath | relative_url | append: page.coverImage -}} " alt="" class="featured-image-post">
+  {%- else -%}
+  <img src="{{- site.imagepath | relative_url | append: site.defaultCoverImage -}} " alt="" class="featured-image-post">
+{%- endif -%}

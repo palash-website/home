@@ -5,12 +5,7 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    {%- if page.coverImage -%} <!-- Added this to show up a cover image: MJ -->
-      <img src="{{- site.imagepath | relative_url | append: page.coverImage -}} " alt="" class="featured-image-post">
-      {%- else -%}
-      <img src="{{- site.imagepath | relative_url | append: site.defaultpostimage -}} " alt="" class="featured-image-post">
-  
-    {%- endif -%}
+    {%- include top-image.html -%} <!-- Added this to show up a cover image: MJ -->
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">

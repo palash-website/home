@@ -42,12 +42,14 @@ plugins:
 #Get the links to be the title names
 permalink: /:title/
 imagepath: /assets/images/
-defaultpostimage: palash-home-default.jpg
+defaultCoverImage: palash-home-default.jpg
 
 header_pages:
   - blog.md
+  - careerbloom.md
+  - career-leadership.md
 #  - contact.md
-#  - about.md
+  - about.md
   
 # Exclude from processing.
 # The following items will not be processed, by default.
