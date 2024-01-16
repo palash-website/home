@@ -49,7 +49,7 @@ header_pages:
   - careerbloom.md
   - about.md
   - search.md
-  
+show_excerpts: true  
 # Google Analytics
 google_analytics: G-WV13V5Z71K
 
