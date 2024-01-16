@@ -16,3 +16,4 @@ Welcome to my digital home! While this site includes content on a diverse set of
 
 Head over to the [Blog](/Blog) or find out more [about this site or me](/about).  
 
+

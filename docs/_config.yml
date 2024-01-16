@@ -47,9 +47,8 @@ defaultCoverImage: palash-home-default.jpg
 header_pages:
   - blog.md
   - careerbloom.md
-  - career-leadership.md
-#  - contact.md
   - about.md
+  - search.md
   
 # Exclude from processing.
 # The following items will not be processed, by default.
