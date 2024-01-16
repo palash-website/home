@@ -50,6 +50,9 @@ header_pages:
   - about.md
   - search.md
   
+# Google Analytics
+google_analytics: G-WV13V5Z71K
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
